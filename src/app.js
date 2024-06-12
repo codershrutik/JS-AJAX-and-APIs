@@ -24,15 +24,15 @@
 //     console.log("ERROR",e);
 // })
 
-const getStarWarsPerson = async(id) =>{
-    const res = await axios.get(`https://swapi.dev/api/people/${id}`);
-    console.log(res.data);
-}
+// const getStarWarsPerson = async(id) =>{
+//     const res = await axios.get(`https://swapi.dev/api/people/${id}`);
+//     console.log(res.data);
+// }
 
-getStarWarsPerson(5);
-getStarWarsPerson(10);
+// getStarWarsPerson(5);
+// getStarWarsPerson(10);
 
-const getDadJoke = async() = >{
-    const config = {headers: {Accept: 'application/json'}}
-    const res = await axios.get("https://icanhazdadjoke.com/")
-}
+// const getDadJoke = async() = >{
+//     const config = {headers: {Accept: 'application/json'}}
+//     const res = await axios.get("https://icanhazdadjoke.com/")
+// }
