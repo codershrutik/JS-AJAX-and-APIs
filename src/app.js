@@ -15,3 +15,11 @@ req.onerror = function(){
 
 req.open("GET", "https://swapi.dev/api/people/1");
 req.send();
+
+fetch("https://swapi.dev/api/people/1")
+.then((res) => {
+    console.log("RESOLVED",res);
+})
+.vatch((e) =>{
+    console.log("ERROR",e);
+})
