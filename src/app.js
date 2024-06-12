@@ -31,3 +31,8 @@ const getStarWarsPerson = async(id) =>{
 
 getStarWarsPerson(5);
 getStarWarsPerson(10);
+
+const getDadJoke = async() = >{
+    const config = {headers: {Accept: 'application/json'}}
+    const res = await axios.get("https://icanhazdadjoke.com/")
+}
